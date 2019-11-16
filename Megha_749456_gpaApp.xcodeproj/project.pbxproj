@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		3ABE048D237F225500F298D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE048C237F225500F298D1 /* AppDelegate.swift */; };
 		3ABE048F237F225500F298D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE048E237F225500F298D1 /* SceneDelegate.swift */; };
-		3ABE0491237F225500F298D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE0490237F225500F298D1 /* ViewController.swift */; };
 		3ABE0494237F225600F298D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE0492237F225500F298D1 /* Main.storyboard */; };
 		3ABE0496237F225600F298D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE0495237F225600F298D1 /* Assets.xcassets */; };
 		3ABE0499237F225600F298D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE0497237F225600F298D1 /* LaunchScreen.storyboard */; };
+		3ABE04A3237F293700F298D1 /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE04A2237F293700F298D1 /* StudentsTableViewController.swift */; };
+		3ABE04A5237F29A400F298D1 /* StudentStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE04A4237F29A400F298D1 /* StudentStructure.swift */; };
+		3ABE04A7237F2A3600F298D1 /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE04A6237F2A3600F298D1 /* AddStudentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3ABE0489237F225500F298D1 /* Megha_749456_gpaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Megha_749456_gpaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABE048C237F225500F298D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ABE048E237F225500F298D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3ABE0490237F225500F298D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3ABE0493237F225500F298D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3ABE0495237F225600F298D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ABE0498237F225600F298D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ABE049A237F225600F298D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABE04A2237F293700F298D1 /* StudentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
+		3ABE04A4237F29A400F298D1 /* StudentStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentStructure.swift; sourceTree = "<group>"; };
+		3ABE04A6237F2A3600F298D1 /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				3ABE048C237F225500F298D1 /* AppDelegate.swift */,
 				3ABE048E237F225500F298D1 /* SceneDelegate.swift */,
-				3ABE0490237F225500F298D1 /* ViewController.swift */,
 				3ABE0492237F225500F298D1 /* Main.storyboard */,
+				3ABE04A6237F2A3600F298D1 /* AddStudentViewController.swift */,
 				3ABE0495237F225600F298D1 /* Assets.xcassets */,
 				3ABE0497237F225600F298D1 /* LaunchScreen.storyboard */,
 				3ABE049A237F225600F298D1 /* Info.plist */,
+				3ABE04A2237F293700F298D1 /* StudentsTableViewController.swift */,
+				3ABE04A4237F29A400F298D1 /* StudentStructure.swift */,
 			);
 			path = Megha_749456_gpaApp;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ABE0491237F225500F298D1 /* ViewController.swift in Sources */,
+				3ABE04A3237F293700F298D1 /* StudentsTableViewController.swift in Sources */,
+				3ABE04A7237F2A3600F298D1 /* AddStudentViewController.swift in Sources */,
+				3ABE04A5237F29A400F298D1 /* StudentStructure.swift in Sources */,
 				3ABE048D237F225500F298D1 /* AppDelegate.swift in Sources */,
 				3ABE048F237F225500F298D1 /* SceneDelegate.swift in Sources */,
 			);
