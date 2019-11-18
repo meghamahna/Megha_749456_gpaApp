@@ -15,6 +15,11 @@
 		3ABE04A3237F293700F298D1 /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE04A2237F293700F298D1 /* StudentsTableViewController.swift */; };
 		3ABE04A5237F29A400F298D1 /* StudentStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE04A4237F29A400F298D1 /* StudentStructure.swift */; };
 		3ABE04A7237F2A3600F298D1 /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE04A6237F2A3600F298D1 /* AddStudentViewController.swift */; };
+		3ABE04D52380CF5E00F298D1 /* SemesterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE04D42380CF5D00F298D1 /* SemesterTableViewController.swift */; };
+		3ABE04D72380CF8600F298D1 /* MarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE04D62380CF8600F298D1 /* MarksViewController.swift */; };
+		3ABE04D92380D15F00F298D1 /* SemesterStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE04D82380D15F00F298D1 /* SemesterStructure.swift */; };
+		3ABE04DB2380E85600F298D1 /* Grade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE04DA2380E85600F298D1 /* Grade.swift */; };
+		3ABE04E22382142D00F298D1 /* Win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE04E12382142D00F298D1 /* Win.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		3ABE04A2237F293700F298D1 /* StudentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
 		3ABE04A4237F29A400F298D1 /* StudentStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentStructure.swift; sourceTree = "<group>"; };
 		3ABE04A6237F2A3600F298D1 /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		3ABE04D42380CF5D00F298D1 /* SemesterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemesterTableViewController.swift; sourceTree = "<group>"; };
+		3ABE04D62380CF8600F298D1 /* MarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksViewController.swift; sourceTree = "<group>"; };
+		3ABE04D82380D15F00F298D1 /* SemesterStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemesterStructure.swift; sourceTree = "<group>"; };
+		3ABE04DA2380E85600F298D1 /* Grade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
+		3ABE04E12382142D00F298D1 /* Win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Win.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 		3ABE048B237F225500F298D1 /* Megha_749456_gpaApp */ = {
 			isa = PBXGroup;
 			children = (
+				3ABE04DE2382137A00F298D1 /* sound */,
 				3ABE048C237F225500F298D1 /* AppDelegate.swift */,
 				3ABE048E237F225500F298D1 /* SceneDelegate.swift */,
 				3ABE0492237F225500F298D1 /* Main.storyboard */,
@@ -69,8 +80,20 @@
 				3ABE049A237F225600F298D1 /* Info.plist */,
 				3ABE04A2237F293700F298D1 /* StudentsTableViewController.swift */,
 				3ABE04A4237F29A400F298D1 /* StudentStructure.swift */,
+				3ABE04D42380CF5D00F298D1 /* SemesterTableViewController.swift */,
+				3ABE04D62380CF8600F298D1 /* MarksViewController.swift */,
+				3ABE04D82380D15F00F298D1 /* SemesterStructure.swift */,
+				3ABE04DA2380E85600F298D1 /* Grade.swift */,
 			);
 			path = Megha_749456_gpaApp;
+			sourceTree = "<group>";
+		};
+		3ABE04DE2382137A00F298D1 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				3ABE04E12382142D00F298D1 /* Win.wav */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ABE0499237F225600F298D1 /* LaunchScreen.storyboard in Resources */,
+				3ABE04E22382142D00F298D1 /* Win.wav in Resources */,
 				3ABE0496237F225600F298D1 /* Assets.xcassets in Resources */,
 				3ABE0494237F225600F298D1 /* Main.storyboard in Resources */,
 			);
@@ -145,8 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ABE04A3237F293700F298D1 /* StudentsTableViewController.swift in Sources */,
+				3ABE04D52380CF5E00F298D1 /* SemesterTableViewController.swift in Sources */,
+				3ABE04DB2380E85600F298D1 /* Grade.swift in Sources */,
 				3ABE04A7237F2A3600F298D1 /* AddStudentViewController.swift in Sources */,
+				3ABE04D92380D15F00F298D1 /* SemesterStructure.swift in Sources */,
 				3ABE04A5237F29A400F298D1 /* StudentStructure.swift in Sources */,
+				3ABE04D72380CF8600F298D1 /* MarksViewController.swift in Sources */,
 				3ABE048D237F225500F298D1 /* AppDelegate.swift in Sources */,
 				3ABE048F237F225500F298D1 /* SceneDelegate.swift in Sources */,
 			);
